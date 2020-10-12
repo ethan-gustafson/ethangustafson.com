@@ -4,7 +4,7 @@ import Nav from "./Nav.js";
 import { StyledHeader } from './styles/StyledHeader.js';
 
 const Header = ({ siteTitle }) => (
-  <StyledHeader>
+  <StyledHeader id="header">
     <Nav/>
   </StyledHeader>
 );

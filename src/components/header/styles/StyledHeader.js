@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 export const StyledHeader = styled.header`
-  background-color: black;
+  background-color: #151514;
   margin-bottom: 1.45rem;
-  height: 10%;
+  height: 80px;
 `
