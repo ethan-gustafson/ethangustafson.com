@@ -1,12 +1,12 @@
 import React from "react";
-import { UlContainer, Ul, Li, Link } from './styles/StyledNav.js';
+import { Navigation, Ul, Li, Link } from './styles/StyledNav.js';
 
 const Nav = () => (
-  <UlContainer>
+  <Navigation>
     <Ul>
       <Li><Link to="/">EG</Link></Li>
     </Ul>
-  </UlContainer>
+  </Navigation>
 );
 
 export default Nav;

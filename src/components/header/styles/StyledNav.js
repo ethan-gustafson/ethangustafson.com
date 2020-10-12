@@ -2,7 +2,7 @@ import React from 'react';
 import { Link as A } from 'gatsby';
 import styled from 'styled-components';
 
-export const UlContainer = styled.div`
+export const Navigation = styled.nav`
   margin: 0 auto;
   max-width: 960;
 `
