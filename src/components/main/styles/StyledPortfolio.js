@@ -6,7 +6,9 @@ export const Section = styled.section`
   padding-top: 3%;
   width: 100%;
   height: 1050px;
+
   background-color: #08090F;
+  border-bottom: solid white 1px;
 `
 
 export const PortfolioH2 = styled.h2`
@@ -28,7 +30,7 @@ export const Project = styled.div`
   width: 400px;
   height: 400px;
 
-  margin: 20px 20px;
+  margin: 25px 25px;
   background-color: white;
 
   border-radius: 20px;

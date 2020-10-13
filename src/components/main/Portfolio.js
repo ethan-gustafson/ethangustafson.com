@@ -27,8 +27,8 @@ const Portfolio = props => (
         </ImgContainer>
 
         <InfoContainer>
-          <Title>One Piece</Title>
-          <Tools>Tools: Ruby, NokoGiri, RSpec</Tools>
+          <Title>One Piece | <Link to="https://repl.it/@GoodGuyGuf/OnePiece">Repl.it</Link></Title>
+          <Tools><u>Tools:</u> Ruby, NokoGiri, RSpec</Tools>
           <Info>A Ruby Command Line Interface providing information about the anime <i>One Piece</i>.</Info>
         </InfoContainer>
 
