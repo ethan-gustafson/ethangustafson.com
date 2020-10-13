@@ -20,6 +20,7 @@ export const TextContainer = styled.div`
   margin: 0 auto;
   text-align: center;
 `
+
 export const Name = styled.h1`
   font-size: 70px;
   text-shadow: white 0px 1px 1px;

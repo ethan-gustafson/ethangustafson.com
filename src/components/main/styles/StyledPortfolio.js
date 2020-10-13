@@ -8,7 +8,6 @@ export const Section = styled.section`
   height: 1050px;
 
   background-color: #08090F;
-  border-bottom: solid white 1px;
 `
 
 export const PortfolioH2 = styled.h2`
