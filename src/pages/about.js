@@ -1,7 +1,6 @@
 import React from "react";
 
 import Layout from "../components/layout";
-import About from "../components/main/About";
 import AboutImageQuery from "../components/main/images/AboutImageQuery.js"
 import SEO from "../components/seo";
 

@@ -12,7 +12,10 @@ const Blog = () => (
   <Section>
     <BlogH2 id="blog">Blog</BlogH2>
     <BlogsContainer>
-      <BlogDiv></BlogDiv>
+      <BlogDiv>
+        <BlogImage></BlogImage>
+        <BlogInfo></BlogInfo>
+      </BlogDiv>
       <BlogDiv></BlogDiv>
       <BlogDiv></BlogDiv>
       <BlogDiv></BlogDiv>
