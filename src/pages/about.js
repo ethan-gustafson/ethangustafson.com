@@ -1,14 +1,14 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from "react";
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Layout from "../components/layout";
+import About from "../components/main/About";
+import AboutImageQuery from "../components/main/images/AboutImageQuery.js"
+import SEO from "../components/seo";
 
 const AboutPage = () => (
   <Layout>
     <SEO title="About" />
-    <h1>About</h1>
-    <Link to="/">Home</Link>
+    <AboutImageQuery/>
   </Layout>
 )
 
