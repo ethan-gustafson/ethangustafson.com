@@ -48,7 +48,21 @@ const Portfolio = props => (
         </InfoContainer>
 
       </Project>
-      <Project></Project>
+      <Project>
+
+        <ImgContainer>
+          <Link to="https://github.com/GoodGuyGuf/FilmPitch">
+            <Image fluid={props.project.rails.childImageSharp.fluid} />
+          </Link>
+        </ImgContainer>
+
+        <InfoContainer>
+          <Title>FilmPitch</Title>
+          <Tools><u>Tools:</u> Rails, Devise, Omniauth-Twitter, ActiveStorage</Tools>
+          <Info>Film Crowdfunding Application.</Info>
+        </InfoContainer>
+
+      </Project>
       <Project></Project>
       <Project></Project>
     </ProjectsContainer>

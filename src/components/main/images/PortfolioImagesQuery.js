@@ -19,7 +19,7 @@ const PortfolioImages = () => {
           }
         }
       }
-      rails: file(relativePath: { eq: "CLI/one_piece.png" }) {
+      rails: file(relativePath: { eq: "rails/filmpitch3.png" }) {
         childImageSharp {
           fluid(quality: 100) {
             ...GatsbyImageSharpFluid
