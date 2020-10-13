@@ -124,35 +124,51 @@ function Contact(){
           </ImgContainer>
 
           <ImgContainer>
-            <Img imgStyle={{borderRadius: "10px", objectFit: "cover"}} fluid={data.github.childImageSharp.fluid}/>
+            <Link target="#" to="https://github.com/GoodGuyGuf">
+              <Img imgStyle={{borderRadius: "10px", objectFit: "cover"}} fluid={data.github.childImageSharp.fluid}/>
+            </Link>
           </ImgContainer>
 
           <ImgContainer>
-            <Img imgStyle={{borderRadius: "10px", objectFit: "cover"}} fluid={data.linkedin.childImageSharp.fluid}/>
+            <Link target="#" to="https://www.linkedin.com/in/ethangustafson/">
+              <Img imgStyle={{borderRadius: "10px", objectFit: "cover"}} fluid={data.linkedin.childImageSharp.fluid}/>
+            </Link>
           </ImgContainer>
 
           <ImgContainer>
-            <Img imgStyle={{borderRadius: "10px", objectFit: "cover"}} fluid={data.blog.childImageSharp.fluid}/>
+            <Link target="#" to="https://dev.to/ethanmgustafson">
+              <Img imgStyle={{borderRadius: "10px", objectFit: "cover"}} fluid={data.blog.childImageSharp.fluid}/>
+            </Link>
           </ImgContainer>
 
           <ImgContainer>
-            <Img imgStyle={{borderRadius: "10px", objectFit: "cover"}} fluid={data.twitter.childImageSharp.fluid}/>
+            <Link target="#" to="https://twitter.com/ethanMGustafson">
+              <Img imgStyle={{borderRadius: "10px", objectFit: "cover"}} fluid={data.twitter.childImageSharp.fluid}/>
+            </Link>
           </ImgContainer>
 
           <ImgContainer>
-            <Img imgStyle={{borderRadius: "10px", objectFit: "cover"}} fluid={data.youtube.childImageSharp.fluid}/>
+            <Link target="#" to="https://www.youtube.com/channel/UCWIqtGDXMRB6xgA-n5aOgoQ">
+              <Img imgStyle={{borderRadius: "10px", objectFit: "cover"}} fluid={data.youtube.childImageSharp.fluid}/>
+            </Link>
           </ImgContainer>
 
           <ImgContainer>
-            <Img imgStyle={{borderRadius: "10px", objectFit: "cover"}} fluid={data.flickr.childImageSharp.fluid}/>
+            <Link target="#" to="https://www.flickr.com/photos/127589825@N02/">
+              <Img imgStyle={{borderRadius: "10px", objectFit: "cover"}} fluid={data.flickr.childImageSharp.fluid}/>
+            </Link>
           </ImgContainer>
 
           <ImgContainer>
-            <Img imgStyle={{borderRadius: "10px", objectFit: "cover"}} fluid={data.flatiron.childImageSharp.fluid}/>
+            <Link target="#" to="https://flatironschool.com/">
+              <Img imgStyle={{borderRadius: "10px", objectFit: "cover"}} fluid={data.flatiron.childImageSharp.fluid}/>
+            </Link>
           </ImgContainer>
 
           <ImgContainer>
-            <Img imgStyle={{borderRadius: "10px", objectFit: "cover"}} fluid={data.fullsail.childImageSharp.fluid}/>
+            <Link target="#" to="https://www.fullsail.edu/">
+              <Img imgStyle={{borderRadius: "10px", objectFit: "cover"}} fluid={data.fullsail.childImageSharp.fluid}/>
+            </Link>
           </ImgContainer>
 
         </IconsContainer>
