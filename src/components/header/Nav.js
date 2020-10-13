@@ -6,10 +6,10 @@ const Nav = () => (
     <Ul>
       <LiLogo><LogoLink to="/">EG</LogoLink></LiLogo>
       <Li><Link to="/about">About</Link></Li>
-      <Li><Link to="#portfolio">Portfolio</Link></Li>
-      <Li><Link to="#blog">Blog</Link></Li>
-      <Li><Link to="#film-video">Film/Photo</Link></Li>
-      <Li><Link to="#contact">Contact</Link></Li>
+      <Li><Link to="/#portfolio">Portfolio</Link></Li>
+      <Li><Link to="/#blog">Blog</Link></Li>
+      <Li><Link to="film-video">Film/Photo</Link></Li>
+      <Li><Link to="/#contact">Contact</Link></Li>
     </Ul>
   </Navigation>
 );
