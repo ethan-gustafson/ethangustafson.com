@@ -3,14 +3,15 @@ import styled from 'styled-components';
 import Img from "gatsby-image";
 
 export const Section = styled.section`
-  padding-top: 3%;
   width: 100%;
   height: 1050px;
 
   background-color: #08090F;
+  margin-bottom: 1%;
 `
 
 export const PortfolioH2 = styled.h2`
+  padding-top: 7%;
   font-size: 50px;
   color: white;
   text-align: center;
