@@ -21,23 +21,24 @@ export const Ul = styled.ul`
 `
 
 export const LiLogo = styled.li`
+  padding-top: 5px;
   grid-column: 3 / 7;
   list-style-type: none;
 `
 
 export const LogoLink = styled(props => (<A {...props}/>))`
-  font-family: georgia, serif, sans-serif;
-  font-size: 24px;
+  font-family: gravity, georgia, serif, sans-serif;
+  font-weight: bold;
+  font-size: 32px;
   padding: 10px;
 
-  color: black;
-  background-color: white;
+  color: white;
+  background-color: black;
 
   text-decoration: none;
   border-radius: 50%;
 
   &:hover{
-    color: white;
     background-color: #ef233c;
     transition-duration: 0.3s;
   }
