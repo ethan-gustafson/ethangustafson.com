@@ -1,6 +1,4 @@
-import React from 'react';
 import styled from 'styled-components';
-import Img from "gatsby-image";
 
 export const Section = styled.section`
   padding-top: 2%;
@@ -26,12 +24,13 @@ export const BlogsContainer = styled.div`
 
 export const BlogDiv = styled.div`
   width: 400px;
-  height: 400px;
+  height: 470px;
 
   margin: 25px 25px;
   background-color: white;
 
   border-radius: 20px;
+  text-align: center;
 `
 
 export const IFrame = styled.iframe`
