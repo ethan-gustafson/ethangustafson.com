@@ -12,3 +12,85 @@ export const ContactH2 = styled.h2`
   color: white;
   text-align: center;
 `
+
+export const MainContainer = styled.div`
+  width: 85%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+`
+
+export const FormContainer = styled.div`
+  width: 50%;
+  height: 600px;
+`
+
+export const Form = styled.form`
+  color: black;
+  background-color: #ef233c;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 20px;
+`
+
+export const InputContainer = styled.div`
+  flex: 0 1 25%;
+  width: 100%;
+  margin: 1%;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+`
+
+export const Input = styled.input`
+  font-size: 24px;
+  padding: 10px;
+  margin: 0 auto;
+
+  width: 90%;
+
+  border-radius: 10px;
+  border: none;
+`
+
+export const TextArea = styled.textarea`
+  margin: 0 auto;
+  resize: none;
+  border-radius: 10px;
+  width: 90%;
+  height: 300px;
+  padding: 20px;
+  border: none;
+`
+
+export const SendFormButton = styled.button`
+  margin: 0 auto;
+  width: 30%;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+`
+
+export const IconsContainer = styled.div`
+  width: 50%;
+  height: 600px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 200px);
+  justify-content: center;
+  align-items: center;
+`
+
+export const ImgContainer = styled.div`
+  margin: 0 auto;
+  background-color: #ef233c;
+  border-radius: 10px;
+  width: 50%;
+  height: 50%;
+`
