@@ -6,7 +6,7 @@ const Intro = () => (
   <Section>
     <IntroBackgroundImage>
       <TextContainer>
-        <h1 style={{fontSize: "70px", textShadow: "0 0 3px lightgrey"}}>Ethan Gustafson</h1>
+        <h1 style={{fontSize: "70px", textShadow: "white 0px 1px 1px"}}>Ethan Gustafson</h1>
         <h2 style={{fontSize: "50px"}}>Software Engineer</h2>
       </TextContainer>
     </IntroBackgroundImage>

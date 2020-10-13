@@ -11,6 +11,8 @@ export const Ul = styled.ul`
   width: 100%;
   height: 100%;
   margin-left: 0;
+  padding-top: 13px;
+
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-gap: 10px;
