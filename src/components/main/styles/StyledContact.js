@@ -17,11 +17,11 @@ export const MainContainer = styled.div`
   width: 85%;
   height: 100%;
   margin: 0 auto;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr)
 `
 
 export const FormContainer = styled.div`
-  width: 50%;
   height: 600px;
 `
 
@@ -78,7 +78,6 @@ export const SendFormButton = styled.button`
 `
 
 export const IconsContainer = styled.div`
-  width: 50%;
   height: 600px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);

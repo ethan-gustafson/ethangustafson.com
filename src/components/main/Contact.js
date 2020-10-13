@@ -12,14 +12,14 @@ import {
   IconsContainer,
   ImgContainer
 } from "./styles/StyledContact.js";
-import { useStaticQuery, graphql, Link } from "gatsby";
+import { useStaticQuery, graphql, Link, navigate } from "gatsby";
 import Img from "gatsby-image";
 import resumeFile from "../../../Ethan_Gustafson_Resume.pdf";
 
 const Contact = () => {
   const data = useStaticQuery(graphql`
     query {
-      resume: file(relativePath: { eq: "icons/resume.png" }) {
+      resume: file(relativePath: { eq: "icons/resume512.png" }) {
         childImageSharp {
           fluid(quality: 100) {
             ...GatsbyImageSharpFluid
@@ -84,13 +84,17 @@ const Contact = () => {
       }
     }
   `)
+  const redirect = () => {
+
+  }
+
   return (
     <Section id="contact">
       <ContactH2>Contact</ContactH2>
       <MainContainer>
         <FormContainer>
 
-          <Form name="contact" method="POST" data-netlify="true">
+          <Form name="contact" method="POST" netlify>
             <InputContainer>
               <label htmlFor="name">Your Name:</label>
               <Input  id="name" type="text" name="name" placeholder="Name"/>
@@ -117,7 +121,7 @@ const Contact = () => {
 
           <ImgContainer>
             <Link target="#" href={resumeFile} download>
-              <Img imgStyle={{borderRadius: "10px", objectFit: "cover"}} fluid={data.resume.childImageSharp.fluid}/>
+              <Img imgStyle={{borderRadius: "10px"}} fluid={data.resume.childImageSharp.fluid}/>
             </Link>
           </ImgContainer>
 
