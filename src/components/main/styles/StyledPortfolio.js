@@ -53,15 +53,18 @@ export const Image = styled(props => (<Img {...props}/>))`
 `
 
 export const InfoContainer = styled.div`
-  text-align: center;
+  
 `
 
 export const Title = styled.h3`
   margin-top: 10px;
+  text-align: center;
 `
 
 export const Tools = styled.p`
-
+  width: 90%;
+  text-align: center;
+  margin: 5% auto;
 `
 
 export const Info = styled.p`

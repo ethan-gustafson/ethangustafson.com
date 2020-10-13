@@ -26,14 +26,14 @@ const PortfolioImages = () => {
           }
         }
       }
-      js: file(relativePath: { eq: "CLI/one_piece.png" }) {
+      js: file(relativePath: { eq: "js/mybudget.png" }) {
         childImageSharp {
           fluid(quality: 100) {
             ...GatsbyImageSharpFluid
           }
         }
       }
-      react: file(relativePath: { eq: "CLI/one_piece.png" }) {
+      react: file(relativePath: { eq: "react/react.png" }) {
         childImageSharp {
           fluid(quality: 100) {
             ...GatsbyImageSharpFluid
