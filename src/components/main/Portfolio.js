@@ -33,7 +33,21 @@ const Portfolio = props => (
         </InfoContainer>
 
       </Project>
-      <Project></Project>
+      <Project>
+
+        <ImgContainer>
+          <Link to="https://github.com/GoodGuyGuf/hole-in-the-wall">
+            <Image fluid={props.project.sinatra.childImageSharp.fluid} />
+          </Link>
+        </ImgContainer>
+
+        <InfoContainer>
+          <Title>Hole in the wall | <Link to="https://hole--in-the--wall.herokuapp.com/login">Heroku Live</Link></Title>
+          <Tools><u>Tools:</u> Sinatra, JavaScript, Postgres, faker</Tools>
+          <Info>A web application for providing awareness towards "Hole in the wall" types of stores.</Info>
+        </InfoContainer>
+
+      </Project>
       <Project></Project>
       <Project></Project>
       <Project></Project>
