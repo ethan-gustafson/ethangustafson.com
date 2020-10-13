@@ -29,11 +29,10 @@ export const LiLogo = styled.li`
 export const LogoLink = styled(props => (<A {...props}/>))`
   font-family: gravity, georgia, serif, sans-serif;
   font-weight: bold;
-  font-size: 32px;
-  padding: 10px;
+  font-size: 28px;
+  padding: 15px;
 
   color: white;
-  background-color: black;
 
   text-decoration: none;
   border-radius: 50%;
