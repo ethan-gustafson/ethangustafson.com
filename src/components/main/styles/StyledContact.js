@@ -75,6 +75,7 @@ export const SendFormButton = styled.button`
   height: 50px;
   border-radius: 10px;
   border: none;
+  cursor: pointer;
 `
 
 export const IconsContainer = styled.div`

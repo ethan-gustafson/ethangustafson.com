@@ -12,11 +12,11 @@ import {
   IconsContainer,
   ImgContainer
 } from "./styles/StyledContact.js";
-import { useStaticQuery, graphql, Link, navigate } from "gatsby";
+import { useStaticQuery, graphql, Link } from "gatsby";
 import Img from "gatsby-image";
 import resumeFile from "../../../Ethan_Gustafson_Resume.pdf";
 
-const Contact = () => {
+function Contact(){
   const data = useStaticQuery(graphql`
     query {
       resume: file(relativePath: { eq: "icons/resume512.png" }) {
@@ -84,9 +84,6 @@ const Contact = () => {
       }
     }
   `)
-  const redirect = () => {
-
-  }
 
   return (
     <Section id="contact">
@@ -94,7 +91,8 @@ const Contact = () => {
       <MainContainer>
         <FormContainer>
 
-          <Form name="contact" method="POST" netlify>
+          <Form name="contact" method="POST" data-netlify="true" >
+          {/* <input type="hidden" name="form-name" value="contact" /> */}
             <InputContainer>
               <label htmlFor="name">Your Name:</label>
               <Input  id="name" type="text" name="name" placeholder="Name"/>
