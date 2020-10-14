@@ -30,9 +30,11 @@ export const MainContainer = styled.div`
 `
 
 export const FormContainer = styled.div`
+  margin-left: 3%;
   height: 650px;
   width: 50%;
   @media(max-width: 1000px) {
+    margin: 0;
     width: 100%;
   }
 `

@@ -23,13 +23,14 @@ export const PortfolioH2 = styled.h2`
 export const ProjectsContainer = styled.div`
   width: 90%;
   height: 100%;
-  margin: 0 auto;
+  margin: 0 3% 0 auto;
 
   display: flex;
   flex-wrap: wrap;
   align-content: center;
   
   @media(max-width: 1000px) {
+    margin: 0 auto;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: stretch;
