@@ -1,10 +1,20 @@
 import React from "react";
-import { Link } from "gatsby";
-import { Section, FilmmakingContainer, VideoFlexContainer, VideoContainer, VideoIFrame } from "./styles/StyledMedia.js";
+import { 
+  Section, 
+  Link,
+  Image,
+  FilmmakingContainer, 
+  VideoFlexContainer, 
+  VideoContainer, 
+  VideoIFrame,
+  PhotographyContainer,
+  PhotoFlexContainer,
+  PhotoContainer
+} from "./styles/StyledMedia.js";
 
 const Media = () => (
   <Section>
-    <div style={{width: "100%"}}>
+    <div>
       <h2 style={{color: "white", textAlign: "center"}}>Film Production/Videography</h2>
       <FilmmakingContainer>
 
@@ -134,8 +144,8 @@ const Media = () => (
           </VideoContainer>
         </VideoFlexContainer>
 
-        <div id="link-to-youtube-remove-this-later">
-          <Link to="https://www.youtube.com/channel/UCWIqtGDXMRB6xgA-n5aOgoQ">
+        <div style={{margin: "3% auto"}} id="link-to-youtube-remove-this-later">
+          <Link target="_blank" to="https://www.youtube.com/channel/UCWIqtGDXMRB6xgA-n5aOgoQ">
             View My YouTube Channel?
           </Link>
         </div>
@@ -143,19 +153,57 @@ const Media = () => (
     </div>
     
     <div>
-      <h2>Photography</h2>
-      <div style={{display: "flex"}}>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div id="link-to-flickr-remove-this-later"></div>
-      </div>
+      <h2 style={{color: "white", textAlign: "center"}}>Photography</h2>
+      <PhotographyContainer>
+        <PhotoFlexContainer>
+          <PhotoContainer><Image src="https://live.staticflickr.com/7462/15734843801_8b735d7643_k.jpg" alt="cocoa beach"/></PhotoContainer>
+        </PhotoFlexContainer>
+
+        <PhotoFlexContainer>
+          <PhotoContainer>
+            <Image src="https://live.staticflickr.com/5610/15550440678_93049faa02_k.jpg" alt="cocoa beach"/>
+          </PhotoContainer>
+        </PhotoFlexContainer>
+
+        <PhotoFlexContainer>
+          <PhotoContainer>
+            <Image src="https://live.staticflickr.com/7518/15783004761_a932aa109c_k.jpg" alt="bird"/>
+          </PhotoContainer>
+        </PhotoFlexContainer>
+
+        <PhotoFlexContainer>
+          <PhotoContainer>
+            <Image src="https://live.staticflickr.com/65535/50482743256_554ab268b4_b.jpg" alt="Clearwater Sunset"/>
+          </PhotoContainer>
+        </PhotoFlexContainer>
+
+        <PhotoFlexContainer>
+          <PhotoContainer><Image src="https://live.staticflickr.com/7408/16479517816_17c6737f85_b.jpg" alt="Daytona Beach Night"/></PhotoContainer>
+        </PhotoFlexContainer>
+
+        <PhotoFlexContainer>
+          <PhotoContainer>
+            <Image src="https://live.staticflickr.com/65535/50483138422_9954a74cae_b.jpg" alt="Clearwater Beach Sunset"/>
+          </PhotoContainer>
+        </PhotoFlexContainer>
+
+        <PhotoFlexContainer>
+          <PhotoContainer><Image src="https://live.staticflickr.com/65535/50482993091_f5d384330e_b.jpg" alt="Times Square"/></PhotoContainer>
+        </PhotoFlexContainer>
+
+        <PhotoFlexContainer>
+          <PhotoContainer><Image src="https://live.staticflickr.com/65535/50357280812_a77a477ef9_b.jpg" alt="NY"/></PhotoContainer>
+        </PhotoFlexContainer>
+
+        <PhotoFlexContainer>
+          <PhotoContainer><Image src="https://live.staticflickr.com/65535/50356417293_5ca11c82e9_b.jpg" alt="Empire State View"/></PhotoContainer>
+        </PhotoFlexContainer>
+        <div style={{margin: "3% auto"}}>
+          <Link target="_blank" to="https://www.flickr.com/photos/127589825@N02/">
+            View My Flickr?
+          </Link>
+        </div>
+      </PhotographyContainer>
     </div>
   </Section>
 );
