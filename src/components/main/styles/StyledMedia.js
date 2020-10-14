@@ -62,6 +62,7 @@ export const VideoIFrame = styled.iframe`
 export const PhotographyContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 5%;
   @media(max-width: 1000px) {
     flex-direction: column;
     flex-wrap: nowrap;
