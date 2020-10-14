@@ -1,14 +1,14 @@
 import React from "react";
 
-import Layout from "../components/layout";
+import AboutLayout from "../components/AboutLayout";
 import Media from "../components/main/Media.js";
 import SEO from "../components/seo";
 
 const FilmPhotoPage = () => (
-  <Layout>
+  <AboutLayout>
     <SEO title="Film/Photo" />
     <Media/>
-  </Layout>
+  </AboutLayout>
 )
 
 export default FilmPhotoPage;
