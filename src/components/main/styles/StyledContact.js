@@ -30,7 +30,7 @@ export const MainContainer = styled.div`
 `
 
 export const FormContainer = styled.div`
-  height: 700px;
+  height: 650px;
   width: 50%;
   @media(max-width: 1000px) {
     width: 100%;
@@ -82,7 +82,7 @@ export const TextArea = styled.textarea`
 `
 
 export const SendFormButton = styled.button`
-  margin: 0 auto;
+  margin: 3% auto 2% auto;
   width: 30%;
   height: 50px;
   border-radius: 10px;
