@@ -14,7 +14,7 @@ import {
 } from "./styles/StyledContact.js";
 import { useStaticQuery, graphql, Link } from "gatsby";
 import Img from "gatsby-image";
-import resumeFile from "../../../Ethan_Gustafson_Resume.pdf";
+import ResumeFile from "../../../EthanGustafson_Resume_Oct2020.pdf";
 
 function Contact(){
   const data = useStaticQuery(graphql`
@@ -118,7 +118,7 @@ function Contact(){
         <IconsContainer>
 
           <ImgContainer>
-            <Link target="#" href={resumeFile} download>
+            <Link target="#" href={ResumeFile} download>
               <Img imgStyle={{borderRadius: "10px"}} fluid={data.resume.childImageSharp.fluid}/>
             </Link>
           </ImgContainer>
