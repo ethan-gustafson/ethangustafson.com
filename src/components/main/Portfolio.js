@@ -59,7 +59,7 @@ const Portfolio = props => (
         <InfoContainer>
           <Title>FilmPitch</Title>
           <Tools><u>Tools:</u> Rails, RSpec/Capybara, ActiveStorage, Devise, Omniauth-Twitter</Tools>
-          <Info>Film Crowdfunding Application.</Info>
+          <Info>Film Crowdfunding Application allowing users to donate to listed projects.</Info>
         </InfoContainer>
 
       </Project>
@@ -74,7 +74,7 @@ const Portfolio = props => (
         <InfoContainer>
           <Title>MyBudget</Title>
           <Tools><u>Tools:</u> JavaScript, Rails API</Tools>
-          <Info>Simple Budgeting Application</Info>
+          <Info>Simple Budgeting Application allowing users to formulate simple budgets with expenses.</Info>
         </InfoContainer>
 
       </Project>
@@ -89,7 +89,7 @@ const Portfolio = props => (
         <InfoContainer>
           <Title>VacationMe</Title>
           <Tools><u>Tools:</u> React, Redux, Apollo, ActiveStorage, Rails API w/Graphql</Tools>
-          <Info>Social Media Application.</Info>
+          <Info>Social Media Application permitting users to upload pictures and information for their vacations.</Info>
         </InfoContainer>
 
       </Project>
