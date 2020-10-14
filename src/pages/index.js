@@ -7,17 +7,14 @@ import PortfolioImages from "../components/main/images/PortfolioImagesQuery.js";
 import Blog from "../components/main/Blog.js";
 import Contact from "../components/main/Contact.js";
 
-const IndexPage = () => {
-  require('../css/global.css')
-  return(
-    <Layout>
-      <SEO title="Home" />
-      <Intro/>
-      <PortfolioImages/>
-      <Blog/>
-      <Contact/>
-    </Layout>
-  )
-};
+const IndexPage = () => (
+  <Layout>
+    <SEO title="Home" />
+    <Intro/>
+    <PortfolioImages/>
+    <Blog/>
+    <Contact/>
+  </Layout>
+);
 
 export default IndexPage;

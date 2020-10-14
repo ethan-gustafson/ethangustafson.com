@@ -10,12 +10,12 @@ import PropTypes from "prop-types";
 import { useStaticQuery, graphql } from "gatsby";
 
 import Header from "./header/Header.js";
-import StyledMain from "./main/styles/StyledMain.js";
+import StyledAboutMain from "./main/styles/StyledAboutMain.js";
 import "../css/layout.css";
 
-const Layout = ({ children }) => {
+const AboutLayout = ({ children }) => {
   const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
+    query AboutSiteTitleQuery {
       site {
         siteMetadata {
           title
@@ -27,13 +27,13 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <StyledMain>{children}</StyledMain>
+      <StyledAboutMain>{children}</StyledAboutMain>
     </>
   );
 };
 
-Layout.propTypes = {
+AboutLayout.propTypes = {
   children: PropTypes.node.isRequired,
 };
 
-export default Layout;
+export default AboutLayout;
