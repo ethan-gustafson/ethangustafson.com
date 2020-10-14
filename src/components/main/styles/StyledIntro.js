@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 export const Section = styled.section`
   width: 100%;
-  height: 100vh;
+  height: 720px;
   margin-bottom: 1%;
 `
 
@@ -25,10 +25,16 @@ export const TextContainer = styled.div`
 export const Name = styled.h1`
   font-size: 70px;
   text-shadow: white 0px 1px 1px;
+  @media(max-width: 650px) {
+    font-size: 40px;
+  }
 `
 
 export const Career = styled.h2`
   font-size: 50px;
+  @media(max-width: 650px) {
+    font-size: 20px;
+  }
 `
 
 export const PortfolioLink = styled(props => (<A {...props}/>))`
@@ -38,6 +44,11 @@ export const PortfolioLink = styled(props => (<A {...props}/>))`
 
   border-radius: 20px;
   padding: 15px;
+
+  &:hover{
+    background-color: #9d0208;
+    transition-duration: 0.4s;
+  }
 `
 
 export const P = styled.p`
