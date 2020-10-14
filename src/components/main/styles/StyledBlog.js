@@ -5,6 +5,9 @@ export const Section = styled.section`
   height: 1200px;
   background-color: black;
   margin-bottom: 6%;
+  @media(max-width: 1000px) {
+    height: 3500px;
+  }
 `
 
 export const BlogH2 = styled.h2`
@@ -20,20 +23,28 @@ export const BlogsContainer = styled.div`
   height: 100%;
   margin: 0 auto;
 
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 550px);
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  
+  @media(max-width: 1000px) {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+  }
 `
 
 export const BlogDiv = styled.div`
-  width: 85%;
+  width: 30%;
   height: 500px;
+  margin: 0 15px 80px 15px;
 
-  margin: 25px 25px;
   background-color: white;
 
   border-radius: 20px;
-  text-align: center;
+  @media(max-width: 1000px) {
+    width: 90%;
+  }
 `
 
 export const IFrame = styled.iframe`

@@ -6,3 +6,9 @@ html, body, #___gatsby, #gatsby-focus-wrapper{
   height: 4220px;
   background-color: black;
 }
+
+@media(max-width: 650px) {
+  body{
+    height: 8220px;
+  }
+}

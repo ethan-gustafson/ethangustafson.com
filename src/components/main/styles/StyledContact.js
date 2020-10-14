@@ -4,6 +4,9 @@ export const Section = styled.section`
   width: 100%;
   height: 700px;
   background-color: black;
+  @media(max-width: 1000px) {
+    height: 1400px;
+  }
 `
 
 export const ContactH2 = styled.h2`
@@ -18,12 +21,20 @@ export const MainContainer = styled.div`
   width: 85%;
   height: 100%;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr)
+ 
+  display: flex;
+  
+  @media(max-width: 1000px) {
+    flex-direction: column;
+  }
 `
 
 export const FormContainer = styled.div`
-  height: 600px;
+  height: 700px;
+  width: 50%;
+  @media(max-width: 1000px) {
+    width: 95%;
+  }
 `
 
 export const Form = styled.form`
@@ -80,12 +91,21 @@ export const SendFormButton = styled.button`
 `
 
 export const IconsContainer = styled.div`
-  height: 600px;
+  height: 700px;
+  width: 50%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 200px);
   justify-content: center;
   align-items: center;
+
+  @media(max-width: 1000px) {
+    width: 95%;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 200px);
+    justify-content: center;
+    align-items: center;
+  }
 `
 
 export const ImgContainer = styled.div`

@@ -8,35 +8,43 @@ export const Section = styled.section`
 
   background-color: #08090F;
   margin-bottom: 1%;
+  @media(max-width: 1000px) {
+    height: 2600px;
+  }
 `
 
 export const PortfolioH2 = styled.h2`
   padding-top: 3%;
-  padding-bottom: 2%;
   font-size: 50px;
   color: white;
   text-align: center;
 `
 
 export const ProjectsContainer = styled.div`
-  width: 95%;
+  width: 90%;
   height: 100%;
   margin: 0 auto;
 
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 550px);
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  
+  @media(max-width: 1000px) {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+  }
 `
 
 export const Project = styled.div`
-  width: 85%;
+  width: 30%;
   height: 500px;
+  margin: 0 15px 80px 15px;
 
   background-color: white;
 
   border-radius: 20px;
-
-  @media(max-width: 650px) {
+  @media(max-width: 1000px) {
     width: 90%;
   }
 `
