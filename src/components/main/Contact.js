@@ -95,17 +95,17 @@ function Contact(){
           <input type="hidden" name="bot-field" />
           <input type="hidden" name="form-name" value="contact" />
             <InputContainer>
-              <label htmlFor="name">Your Name:</label>
+              <label style={{fontSize: "24px", padding: "2%"}} htmlFor="name">Your Name:</label>
               <Input  id="name" type="text" name="name" placeholder="Name"/>
             </InputContainer>
 
             <InputContainer>
-              <label htmlFor="email">Your Email:</label>
+              <label style={{fontSize: "24px", padding: "2%"}} htmlFor="email">Your Email:</label>
               <Input id="email" type="email" name="email" placeholder="Email"/>
             </InputContainer>
 
             <InputContainer>
-              <label htmlFor="message">Message:</label>
+              <label style={{fontSize: "24px", padding: "2%"}} htmlFor="message">Message:</label>
               <TextArea id="message" name="message" placeholder="Message"></TextArea>
             </InputContainer>
 

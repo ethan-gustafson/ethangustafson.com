@@ -42,7 +42,7 @@ const Portfolio = props => (
         </ImgContainer>
 
         <InfoContainer>
-          <Title>Hole in the wall | <Link target="_blank" to="https://hole--in-the--wall.herokuapp.com/login">Heroku Live</Link></Title>
+          <Title>Hole in the Wall | <Link target="_blank" to="https://hole--in-the--wall.herokuapp.com/login">Heroku Live</Link></Title>
           <Tools><u>Tools:</u> Sinatra, JavaScript, Postgres, faker</Tools>
           <Info>A web application for providing awareness towards "Hole in the wall" types of stores.</Info>
         </InfoContainer>

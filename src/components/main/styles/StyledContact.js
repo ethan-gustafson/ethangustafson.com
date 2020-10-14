@@ -31,7 +31,7 @@ export const MainContainer = styled.div`
 
 export const FormContainer = styled.div`
   margin-left: 3%;
-  height: 650px;
+  height: 600px;
   width: 50%;
   @media(max-width: 1000px) {
     margin: 0;
@@ -55,7 +55,6 @@ export const Form = styled.form`
 export const InputContainer = styled.div`
   flex: 0 1 25%;
   width: 100%;
-  margin: 1%;
 
   display: flex;
   flex-direction: column;
@@ -82,7 +81,7 @@ export const TextArea = styled.textarea`
   resize: none;
   border-radius: 10px;
   width: 90%;
-  height: 300px;
+  height: 260px;
   padding: 20px;
   border: none;
   &:hover{
@@ -92,7 +91,7 @@ export const TextArea = styled.textarea`
 `
 
 export const SendFormButton = styled.button`
-  margin: 3% auto 2% auto;
+  margin: 15px auto 2% auto;
   width: 30%;
   height: 50px;
   border-radius: 10px;
