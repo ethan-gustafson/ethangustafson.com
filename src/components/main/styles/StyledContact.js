@@ -18,7 +18,7 @@ export const ContactH2 = styled.h2`
 `
 
 export const MainContainer = styled.div`
-  width: 85%;
+  width: 90%;
   height: 100%;
   margin: 0 auto;
  
