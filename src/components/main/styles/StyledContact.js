@@ -131,6 +131,10 @@ export const ImgContainer = styled.div`
   border-radius: 10px;
   width: 108px;
   height: 108px;
+  &:hover{
+    opacity: 0.5;
+    transition-duration: 0.4s;
+  }
   @media(max-width: 1000px) {
     height: 50%;
   }
