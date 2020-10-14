@@ -91,8 +91,9 @@ function Contact(){
       <MainContainer>
         <FormContainer>
 
-          <Form name="contact" method="POST" data-netlify="true" >
-          {/* <input type="hidden" name="form-name" value="contact" /> */}
+          <Form action="/thank-you" method="POST" netlify-honeypot="bot-field" data-netlify="true" name="contact">
+          <input type="hidden" name="bot-field" />
+          <input type="hidden" name="form-name" value="contact" />
             <InputContainer>
               <label htmlFor="name">Your Name:</label>
               <Input  id="name" type="text" name="name" placeholder="Name"/>
