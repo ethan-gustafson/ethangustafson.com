@@ -112,6 +112,9 @@ export const ImgContainer = styled.div`
   margin: 0 auto;
   background-color: #ef233c;
   border-radius: 10px;
-  width: 50%;
-  height: 50%;
+  width: 108px;
+  height: 108px;
+  @media(max-width: 1000px) {
+    height: 50%;
+  }
 `
