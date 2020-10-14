@@ -11,7 +11,7 @@ export const Section = styled.section`
 `
 
 export const BlogH2 = styled.h2`
-  padding-top: 3%;
+  padding-top: 7%;
   padding-bottom: 2%;
   font-size: 50px;
   color: white;

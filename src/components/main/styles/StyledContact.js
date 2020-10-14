@@ -10,7 +10,7 @@ export const Section = styled.section`
 `
 
 export const ContactH2 = styled.h2`
-  padding-top: 3%;
+  padding-top: 7%;
   padding-bottom: 2%;
   font-size: 50px;
   color: white;
@@ -100,9 +100,9 @@ export const IconsContainer = styled.div`
   align-items: center;
 
   @media(max-width: 1000px) {
-    width: 95%;
-    grid-template-columns: repeat(3, 200px);
-    grid-template-rows: repeat(3, 200px);
+    width: 100%;
+    grid-template-columns: repeat(3, 35%);
+    grid-template-rows: repeat(3, 216px);
     justify-content: center;
     align-items: center;
   }

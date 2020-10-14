@@ -14,7 +14,7 @@ export const Section = styled.section`
 `
 
 export const PortfolioH2 = styled.h2`
-  padding-top: 3%;
+  padding-top: 7%;
   font-size: 50px;
   color: white;
   text-align: center;
