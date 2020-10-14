@@ -69,6 +69,10 @@ export const Input = styled.input`
 
   border-radius: 10px;
   border: none;
+  &:hover{
+    background-color: lightgrey;
+    transition-duration: 0.4s;
+  }
 `
 
 export const TextArea = styled.textarea`
@@ -79,6 +83,10 @@ export const TextArea = styled.textarea`
   height: 300px;
   padding: 20px;
   border: none;
+  &:hover{
+    background-color: lightgrey;
+    transition-duration: 0.4s;
+  }
 `
 
 export const SendFormButton = styled.button`
@@ -88,6 +96,13 @@ export const SendFormButton = styled.button`
   border-radius: 10px;
   border: none;
   cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  &:hover{
+    background-color: lightgrey;
+    transition-duration: 0.4s;
+  }
 `
 
 export const IconsContainer = styled.div`
