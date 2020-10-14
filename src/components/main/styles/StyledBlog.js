@@ -19,7 +19,7 @@ export const BlogH2 = styled.h2`
 `
 
 export const BlogsContainer = styled.div`
-  width: 95%;
+  width: 90%;
   height: 100%;
   margin: 0 auto;
 
