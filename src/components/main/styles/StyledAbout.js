@@ -20,6 +20,9 @@ export const MainContainer = styled.div`
   display: flex;
   margin: 0 auto;
   width: 95%;
+  @media(max-width: 1000px) {
+    flex-direction: column;
+  }
 `
 
 export const ImgContainer = styled.div`
