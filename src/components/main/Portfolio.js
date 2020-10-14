@@ -21,13 +21,13 @@ const Portfolio = props => (
       <Project>
 
         <ImgContainer>
-          <Link to="https://github.com/GoodGuyGuf/One_Piece">
+          <Link target="_blank" to="https://github.com/GoodGuyGuf/One_Piece">
             <Image fluid={props.project.cli.childImageSharp.fluid} />
           </Link>
         </ImgContainer>
 
         <InfoContainer>
-          <Title>One Piece | <Link to="https://repl.it/@GoodGuyGuf/OnePiece">Repl.it</Link></Title>
+          <Title>One Piece | <Link target="_blank" to="https://repl.it/@GoodGuyGuf/OnePiece">Repl.it</Link></Title>
           <Tools><u>Tools:</u> Ruby, NokoGiri, RSpec</Tools>
           <Info>A Ruby Command Line Interface providing information about the anime <i>One Piece</i>.</Info>
         </InfoContainer>
@@ -36,13 +36,13 @@ const Portfolio = props => (
       <Project>
 
         <ImgContainer>
-          <Link to="https://github.com/GoodGuyGuf/hole-in-the-wall">
+          <Link target="_blank" to="https://github.com/GoodGuyGuf/hole-in-the-wall">
             <Image fluid={props.project.sinatra.childImageSharp.fluid} />
           </Link>
         </ImgContainer>
 
         <InfoContainer>
-          <Title>Hole in the wall | <Link to="https://hole--in-the--wall.herokuapp.com/login">Heroku Live</Link></Title>
+          <Title>Hole in the wall | <Link target="_blank" to="https://hole--in-the--wall.herokuapp.com/login">Heroku Live</Link></Title>
           <Tools><u>Tools:</u> Sinatra, JavaScript, Postgres, faker</Tools>
           <Info>A web application for providing awareness towards "Hole in the wall" types of stores.</Info>
         </InfoContainer>
@@ -51,7 +51,7 @@ const Portfolio = props => (
       <Project>
 
         <ImgContainer>
-          <Link to="https://github.com/GoodGuyGuf/FilmPitch">
+          <Link target="_blank" to="https://github.com/GoodGuyGuf/FilmPitch">
             <Image fluid={props.project.rails.childImageSharp.fluid} />
           </Link>
         </ImgContainer>
@@ -66,7 +66,7 @@ const Portfolio = props => (
       <Project>
 
         <ImgContainer>
-          <Link to="https://github.com/GoodGuyGuf/myBudget">
+          <Link target="_blank" to="https://github.com/GoodGuyGuf/myBudget">
             <Image fluid={props.project.js.childImageSharp.fluid} />
           </Link>
         </ImgContainer>
@@ -81,7 +81,7 @@ const Portfolio = props => (
       <Project>
 
         <ImgContainer>
-          <Link to="https://github.com/GoodGuyGuf/vacationMe-frontend">
+          <Link target="_blank" to="https://github.com/GoodGuyGuf/vacationMe-frontend">
             <Image fluid={props.project.react.childImageSharp.fluid} />
           </Link>
         </ImgContainer>
