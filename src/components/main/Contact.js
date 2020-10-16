@@ -5,7 +5,9 @@ import {
   MainContainer,
   FormContainer,
   Form,
+  Label,
   InputContainer,
+  TextAreaContainer,
   Input,
   TextArea,
   SendFormButton,
@@ -92,22 +94,23 @@ function Contact(){
         <FormContainer>
 
           <Form action="/thank-you" method="POST" netlify-honeypot="bot-field" data-netlify="true" name="contact">
-          <input type="hidden" name="bot-field" />
-          <input type="hidden" name="form-name" value="contact" />
             <InputContainer>
-              <label style={{fontSize: "24px", padding: "2%"}} htmlFor="name">Your Name:</label>
+              <input type="hidden" name="bot-field" />
+              <input type="hidden" name="form-name" value="contact" />
+
+              <Label htmlFor="name">Your Name:</Label>
               <Input  id="name" type="text" name="name" placeholder="Name"/>
             </InputContainer>
 
             <InputContainer>
-              <label style={{fontSize: "24px", padding: "2%"}} htmlFor="email">Your Email:</label>
+              <Label htmlFor="email">Your Email:</Label>
               <Input id="email" type="email" name="email" placeholder="Email"/>
             </InputContainer>
 
-            <InputContainer>
-              <label style={{fontSize: "24px", padding: "2%"}} htmlFor="message">Message:</label>
+            <TextAreaContainer>
+              <Label htmlFor="message">Message:</Label>
               <TextArea id="message" name="message" placeholder="Message"></TextArea>
-            </InputContainer>
+            </TextAreaContainer>
 
             <InputContainer>
               <SendFormButton type="submit">Send</SendFormButton>
