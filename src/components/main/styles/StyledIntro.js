@@ -5,7 +5,7 @@ import styled from 'styled-components';
 export const Section = styled.section`
   width: 100%;
   height: 720px;
-  margin-bottom: 1%;
+  margin-bottom: 30px;
 `
 
 export const TextContainer = styled.div`

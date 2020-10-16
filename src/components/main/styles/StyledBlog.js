@@ -4,7 +4,7 @@ export const Section = styled.section`
   width: 100%;
   height: 1200px;
   background-color: black;
-  margin-bottom: 6%;
+  margin-bottom: 60px;
   @media(max-width: 1000px) {
     height: 3500px;
   }

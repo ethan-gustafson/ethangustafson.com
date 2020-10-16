@@ -31,15 +31,11 @@ export const MainContainer = styled.div`
 
 export const FormContainer = styled.div`
   height: 600px;
-  flex: 1 1 50%;
-  @media(max-width: 1000px) {
-    margin: 0;
-    width: 100%;
-  }
+  flex: 0 1 50%;
 `
 
 export const IconsContainer = styled.div`
-  height: 700px;
+  height: 600px;
   flex: 1 1 50%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -48,11 +44,8 @@ export const IconsContainer = styled.div`
   align-items: center;
 
   @media(max-width: 1000px) {
-    width: 100%;
     grid-template-columns: repeat(3, 35%);
     grid-template-rows: repeat(3, 216px);
-    justify-content: center;
-    align-items: center;
   }
 `
 
@@ -62,6 +55,7 @@ export const Form = styled.form`
   border-radius: 10px;
   width: 100%;
   height: 100%;
+  margin: 0;
 
   display: flex;
   flex-direction: column;
