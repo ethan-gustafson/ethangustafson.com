@@ -50,9 +50,10 @@ export const IconsContainer = styled.div`
 `
 
 export const Form = styled.form`
-  color: black;
+  color: #151514;
   background-color: #ef233c;
   border-radius: 10px;
+
   width: 100%;
   height: 100%;
   margin: 0;
@@ -65,6 +66,7 @@ export const Form = styled.form`
 
 export const Label = styled.label`
   font-size: 24px;
+  font-weight: bold;
   flex: 1 1 5%;
   margin: 0 auto 20px auto;
 `

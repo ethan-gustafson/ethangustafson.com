@@ -27,7 +27,7 @@ const Portfolio = props => (
         </ImgContainer>
 
         <InfoContainer>
-          <Title>One Piece | <Link target="_blank" to="https://repl.it/@GoodGuyGuf/OnePiece">Repl.it</Link></Title>
+          <Title>One Piece | <Link style={{color: "#ef233c"}} target="_blank" to="https://repl.it/@GoodGuyGuf/OnePiece">Repl.it</Link></Title>
           <Tools><u>Tools:</u> Ruby, NokoGiri, RSpec</Tools>
           <Info>A Ruby Command Line Interface providing information about the anime <i>One Piece</i>.</Info>
         </InfoContainer>
@@ -42,7 +42,7 @@ const Portfolio = props => (
         </ImgContainer>
 
         <InfoContainer>
-          <Title>Hole in the Wall | <Link target="_blank" to="https://hole--in-the--wall.herokuapp.com/login">Heroku Live</Link></Title>
+          <Title>Hole in the Wall | <Link style={{color: "#ef233c"}} target="_blank" to="https://hole--in-the--wall.herokuapp.com/login">Heroku Live</Link></Title>
           <Tools><u>Tools:</u> Sinatra, JavaScript, Postgres, faker</Tools>
           <Info>A web application for providing awareness towards "Hole in the wall" types of stores.</Info>
         </InfoContainer>

@@ -42,7 +42,8 @@ export const Project = styled.div`
   height: 500px;
   margin: 0 15px 80px 15px;
 
-  background-color: white;
+  color: white;
+  background-color: #212121;
 
   border-radius: 20px;
   @media(max-width: 1000px) {
@@ -54,6 +55,10 @@ export const Project = styled.div`
 export const ImgContainer = styled.div`
   width: 100%;
   height: 200px;
+
+  background-color: white;
+  border: solid white 1px;
+  border-radius: 20px;
   &:hover{
     height: 260px;
     transition-duration: 0.4s;
@@ -64,7 +69,7 @@ export const Image = styled(props => (<Img {...props}/>))`
   object-fit: "cover";
   height: 100%;
   width: 100%;
-  border-radius: 20px 20px 0 0;
+  border-radius: 20px;
 `
 
 export const InfoContainer = styled.div`
