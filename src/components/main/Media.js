@@ -18,6 +18,48 @@ const Media = () => (
       <h2 style={{color: "white", textAlign: "center"}}>Film Production/Videography</h2>
       <FilmmakingContainer>
 
+      <VideoFlexContainer>
+          <VideoContainer>
+            <VideoIFrame 
+              title="Alissa & Austin Wedding Film"
+              src="https://player.vimeo.com/video/247823187" 
+              width="460" 
+              height="315" 
+              frameborder="0" 
+              allow="autoplay; fullscreen" 
+              allowfullscreen
+            />
+          </VideoContainer>
+        </VideoFlexContainer>
+
+        <VideoFlexContainer>
+          <VideoContainer>
+            <VideoIFrame 
+              title="Michelle and Will Wedding Film" 
+              src="https://player.vimeo.com/video/275519651" 
+              width="460" 
+              height="315" 
+              frameborder="0" 
+              allow="autoplay; fullscreen" 
+              allowfullscreen
+            />
+          </VideoContainer>
+        </VideoFlexContainer>
+
+        <VideoFlexContainer>
+          <VideoContainer>
+            <VideoIFrame 
+              title="Anjelica and Brent Wedding Film" 
+              src="https://player.vimeo.com/video/266352313" 
+              width="460" 
+              height="315" 
+              frameborder="0" 
+              allow="autoplay; fullscreen" 
+              allowfullscreen
+            />
+          </VideoContainer>
+        </VideoFlexContainer>
+
         <VideoFlexContainer>
           <VideoContainer>
             <VideoIFrame 
@@ -97,48 +139,6 @@ const Media = () => (
               src="https://www.youtube.com/embed/ck66Prkdprc" 
               frameborder="0" 
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-              allowfullscreen
-            />
-          </VideoContainer>
-        </VideoFlexContainer>
-
-        <VideoFlexContainer>
-          <VideoContainer>
-            <VideoIFrame 
-              title="Alissa & Austin Wedding Film"
-              src="https://player.vimeo.com/video/247823187" 
-              width="460" 
-              height="315" 
-              frameborder="0" 
-              allow="autoplay; fullscreen" 
-              allowfullscreen
-            />
-          </VideoContainer>
-        </VideoFlexContainer>
-
-        <VideoFlexContainer>
-          <VideoContainer>
-            <VideoIFrame 
-              title="Michelle and Will Wedding Film" 
-              src="https://player.vimeo.com/video/275519651" 
-              width="460" 
-              height="315" 
-              frameborder="0" 
-              allow="autoplay; fullscreen" 
-              allowfullscreen
-            />
-          </VideoContainer>
-        </VideoFlexContainer>
-
-        <VideoFlexContainer>
-          <VideoContainer>
-            <VideoIFrame 
-              title="Anjelica and Brent Wedding Film" 
-              src="https://player.vimeo.com/video/266352313" 
-              width="460" 
-              height="315" 
-              frameborder="0" 
-              allow="autoplay; fullscreen" 
               allowfullscreen
             />
           </VideoContainer>
