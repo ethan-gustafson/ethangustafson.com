@@ -24,6 +24,9 @@ export const LiLogo = styled.li`
   padding-top: 5px;
   grid-column: 3 / 7;
   list-style-type: none;
+  @media (max-width: 650px) {
+    padding-top: 0;
+  }
 `
 
 export const LogoLink = styled(props => (<A {...props}/>))`
@@ -39,6 +42,9 @@ export const LogoLink = styled(props => (<A {...props}/>))`
   &:hover{
     background-color: #ef233c;
     transition-duration: 0.3s;
+  }
+  @media (max-width: 650px) {
+    font-size: 16px;
   }
 `
 

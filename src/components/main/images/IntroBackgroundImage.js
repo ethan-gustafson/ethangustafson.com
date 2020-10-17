@@ -32,7 +32,7 @@ export const IntroBackgroundImage = ({ children }) => (
           height: "100%",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
-          backgroundSize: "100% 100%"
+          backgroundSize: "cover"
         }}>
           {children}
         </BackgroundImage>

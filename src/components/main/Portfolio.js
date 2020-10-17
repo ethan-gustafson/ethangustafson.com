@@ -15,7 +15,8 @@ import {
 
 
 const Portfolio = props => (
-  <Section id="portfolio">
+  <Section>
+    <div id="portfolio" style={{position: "relative", top: "-100px"}}></div>
     <PortfolioH2>Portfolio</PortfolioH2>
     <ProjectsContainer>
       <Project>

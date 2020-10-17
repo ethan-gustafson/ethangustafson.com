@@ -10,7 +10,8 @@ import {
 const Blog = () => {
   return (
     <Section>
-      <BlogH2 id="blog">Blog</BlogH2>
+      <div id="blog" style={{position: "relative", top: "-100px"}}></div>
+      <BlogH2>Blog</BlogH2>
       <BlogsContainer>
 
         <BlogDiv>

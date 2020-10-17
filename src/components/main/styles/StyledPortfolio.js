@@ -4,18 +4,17 @@ import Img from "gatsby-image";
 
 export const Section = styled.section`
   width: 100%;
-  height: 1300px;
+  height: 1200px;
 
   background-color: #08090F;
-  margin-bottom: 30px;
   @media(max-width: 1000px) {
-    height: 2600px;
+    height: 3500px;
   }
 `
 
 export const PortfolioH2 = styled.h2`
-  padding-top: 7%;
   font-size: 50px;
+  padding-bottom: 10px;
   color: white;
   text-align: center;
 `
@@ -23,14 +22,15 @@ export const PortfolioH2 = styled.h2`
 export const ProjectsContainer = styled.div`
   width: 90%;
   height: 100%;
-  margin: 0 3% 0 auto;
+  margin: 0 auto;
 
   display: flex;
   flex-wrap: wrap;
-  align-content: center;
+  align-content: start;
+  justify-content: center;
   
   @media(max-width: 1000px) {
-    margin: 0 auto;
+    height: 95%;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: stretch;
@@ -40,7 +40,7 @@ export const ProjectsContainer = styled.div`
 export const Project = styled.div`
   width: 30%;
   height: 500px;
-  margin: 0 15px 80px 15px;
+  margin: 1%;
 
   color: white;
   background-color: #212121;
@@ -49,6 +49,7 @@ export const Project = styled.div`
   @media(max-width: 1000px) {
     margin: 0 0 80px 0;
     width: 100%;
+    height: 100%;
   }
 `
 
@@ -63,6 +64,12 @@ export const ImgContainer = styled.div`
     height: 260px;
     transition-duration: 0.4s;
   }
+  @media(max-width: 1000px) {
+    height: 350px;
+    &:hover{
+      height: 350px;
+    }
+  }
 `
 
 export const Image = styled(props => (<Img {...props}/>))`
@@ -73,7 +80,10 @@ export const Image = styled(props => (<Img {...props}/>))`
 `
 
 export const InfoContainer = styled.div`
-  
+  height: 300px;
+  @media(max-width: 1000px) {
+    height: 150px;
+  }
 `
 
 export const Title = styled.h3`

@@ -88,16 +88,16 @@ function Contact(){
   `)
 
   return (
-    <Section id="contact">
+    <Section>
+      <div id="contact" style={{position: "relative", top: "-100px"}}></div>
       <ContactH2>Contact</ContactH2>
       <MainContainer>
         <FormContainer>
 
           <Form action="/thank-you" method="POST" netlify-honeypot="bot-field" data-netlify="true" name="contact">
+            <input type="hidden" name="bot-field" />
+            <input type="hidden" name="form-name" value="contact" />
             <InputContainer>
-              <input type="hidden" name="bot-field" />
-              <input type="hidden" name="form-name" value="contact" />
-
               <Label htmlFor="name">Your Name:</Label>
               <Input  id="name" type="text" name="name" placeholder="Name"/>
             </InputContainer>

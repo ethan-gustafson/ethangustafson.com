@@ -3,23 +3,22 @@ import styled from 'styled-components';
 export const Section = styled.section`
   width: 100%;
   height: 700px;
-  background-color: black;
+
+  background-color: #08090F;
   @media(max-width: 1000px) {
     height: 1400px;
   }
 `
 
 export const ContactH2 = styled.h2`
-  padding-top: 7%;
-  padding-bottom: 2%;
   font-size: 50px;
+  padding-bottom: 10px;
   color: white;
   text-align: center;
 `
 
 export const MainContainer = styled.div`
   width: 90%;
-  height: 100%;
   margin: 0 auto;
  
   display: flex;
@@ -30,64 +29,66 @@ export const MainContainer = styled.div`
 `
 
 export const FormContainer = styled.div`
-  height: 600px;
-  flex: 0 1 50%;
-`
-
-export const IconsContainer = styled.div`
-  height: 600px;
+  height: 500px;
   flex: 1 1 50%;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 200px);
-  justify-content: center;
+  margin: 1%;
+
+  background-color: #ef233c;
+  border-radius: 10px;
+  display: flex;
   align-items: center;
 
   @media(max-width: 1000px) {
-    grid-template-columns: repeat(3, 35%);
-    grid-template-rows: repeat(3, 216px);
+    margin: 1% auto;
+    width: 95%;
   }
 `
 
 export const Form = styled.form`
   color: #151514;
-  background-color: #ef233c;
-  border-radius: 10px;
 
-  width: 100%;
+  width: 80%;
   height: 100%;
-  margin: 0;
+  margin: 0 auto;
+  padding: 1%;
 
   display: flex;
   flex-direction: column;
-
-  padding: 20px;
-`
-
-export const Label = styled.label`
-  font-size: 24px;
-  font-weight: bold;
-  flex: 1 1 5%;
-  margin: 0 auto 20px auto;
+  justify-content: center;
+  align-content: center;
+  @media(max-width: 1000px) {
+    width: 90%;
+  }
 `
 
 export const InputContainer = styled.div`
   width: 100%;
-  margin: 0 auto 20px auto;
 
-  flex: 1 1 15%;
+  flex: 1 1 18%;
   display: flex;
   flex-direction: column;
   text-align: center;
+
+  margin: 1%;
+
+  justify-content: center;
+  align-items: center;
+`
+
+export const Label = styled.label`
+  font-size: 20px;
+  font-weight: bold;
+  margin: 1%;
 `
 
 export const Input = styled.input`
-  font-size: 24px;
+  font-size: 20px;
+  &:-webkit-autofill::first-line {font-size: 20px}
+  box-shadow: 0 2px 3px darkred;
+
+  width: 100%;
   padding: 10px;
-  margin: 0 auto;
-  flex: 1 1 95%;
-  &:-webkit-autofill::first-line {font-size: 24px}
-  width: 90%;
+  margin: 1%;
 
   border-radius: 10px;
   border: none;
@@ -95,28 +96,35 @@ export const Input = styled.input`
     background-color: lightgrey;
     transition-duration: 0.4s;
   }
+
+  @media(max-width: 1000px) {
+    flex: 0 1 50%;
+  }
 `
 
 export const TextAreaContainer = styled.div`
   width: 100%;
-  margin-bottom: 20px;
+  text-align: center;
 
-  flex: 1 1 55%;
+  margin: 1%;
+
+  flex: 1 1 45%;
   display: flex;
   flex-direction: column;
-  text-align: center;
 `
 
 export const TextArea = styled.textarea`
-  margin: 0 auto;
-  resize: none;
-  border-radius: 10px;
   flex: 1 1 95%;
 
-  width: 90%;
+  width: 100%;
   height: 100%;
-  padding: 20px;
+  padding: 15px;
+  margin: 1% auto;
+  resize: none;
+
   border: none;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px darkred;
 
   &:hover{
     background-color: lightgrey;
@@ -126,19 +134,43 @@ export const TextArea = styled.textarea`
 
 export const SendFormButton = styled.button`
   width: 30%;
-  height: 50px;
-  margin: 0 auto;
+  height: 70%;
 
+  background-color: white;
   border-radius: 10px;
   border: none;
+  box-shadow: 0 2px 3px darkred;
 
   cursor: pointer;
   -webkit-appearance: none;
   -moz-appearance: none;
+  z-index: 2;
 
   &:hover{
     background-color: lightgrey;
     transition-duration: 0.4s;
+  }
+
+  @media(max-width: 1000px) {
+    height: 50%;
+  }
+`
+
+export const IconsContainer = styled.div`
+  height: 500px;
+  flex: 1 1 50%;
+  margin: 1%;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 166px);
+  align-items: center;
+
+  @media(max-width: 1000px) {
+    margin: 1% auto;
+    width: 90%;
+    padding-top: 5%;
+    grid-template-rows: repeat(3, 216px);
   }
 `
 

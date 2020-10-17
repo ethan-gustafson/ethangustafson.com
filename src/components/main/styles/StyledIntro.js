@@ -4,8 +4,7 @@ import styled from 'styled-components';
 
 export const Section = styled.section`
   width: 100%;
-  height: 720px;
-  margin-bottom: 30px;
+  height: 730px;
 `
 
 export const TextContainer = styled.div`
@@ -32,6 +31,7 @@ export const Name = styled.h1`
 
 export const Career = styled.h2`
   font-size: 50px;
+  text-shadow: white 0px 1px 1px;
   @media(max-width: 650px) {
     font-size: 20px;
   }
@@ -43,6 +43,7 @@ export const PortfolioLink = styled(props => (<A {...props}/>))`
   text-decoration: none;
 
   border-radius: 20px;
+  box-shadow: 0 2px 3px black;
   padding: 15px;
 
   &:hover{
