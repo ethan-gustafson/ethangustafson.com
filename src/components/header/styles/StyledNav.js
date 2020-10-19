@@ -1,6 +1,7 @@
 import React from 'react';
-import { Link as A } from 'gatsby';
 import styled from 'styled-components';
+
+import { Link as A } from 'gatsby';
 
 export const Navigation = styled.nav`
   width: 100%;
@@ -15,37 +16,37 @@ export const Ul = styled.ul`
 
   display: grid;
   grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 100%;
   grid-gap: 10px;
   justify-content: center;
   align-items: center;
 `
 
 export const LiLogo = styled.li`
-  padding-top: 5px;
   grid-column: 3 / 7;
   list-style-type: none;
-  @media (max-width: 650px) {
-    padding-top: 0;
-  }
-`
 
-export const LogoLink = styled(props => (<A {...props}/>))`
-  font-weight: bold;
-  font-size: 28px;
-  padding: 15px;
+  display: flex;
+  width: 60px;
+  border-radius: 10px;
 
-  color: white;
-
-  text-decoration: none;
-  border-radius: 50%;
+  filter: brightness(1);
 
   &:hover{
     background-color: #ef233c;
     transition-duration: 0.3s;
   }
+
   @media (max-width: 650px) {
-    font-size: 16px;
+    width: 40px;
   }
+`
+
+export const LogoLink = styled(props => (<A {...props}/>))`
+  width: 100%;
+  height: 100%;
+  display: block;
+  padding: 10px;
 `
 
 export const Li = styled.li`

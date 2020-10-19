@@ -1,6 +1,5 @@
-import React from 'react';
+// import React from 'react';
 import styled from 'styled-components';
-import Img from "gatsby-image";
 
 export const Section = styled.section`
   width: 100%;
@@ -70,13 +69,6 @@ export const ImgContainer = styled.div`
       height: 350px;
     }
   }
-`
-
-export const Image = styled(props => (<Img {...props}/>))`
-  object-fit: "cover";
-  height: 100%;
-  width: 100%;
-  border-radius: 20px;
 `
 
 export const InfoContainer = styled.div`

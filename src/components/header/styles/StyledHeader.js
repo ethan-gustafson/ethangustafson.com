@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const StyledHeader = styled.header`
   background-color: #151514;
-  height: 80px;
+  height: 100px;
   
   ${'' /* -webkit-sticky is needed for safari */}
   position: -webkit-sticky;
