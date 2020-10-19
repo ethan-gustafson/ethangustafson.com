@@ -7,6 +7,7 @@ import {
   ProjectsContainer,
   Project,
   ImgContainer,
+  Image,
   InfoContainer,
   Title,
   Tools,
@@ -23,7 +24,7 @@ const Portfolio = props => (
 
         <ImgContainer>
           <Link target="_blank" to="https://github.com/GoodGuyGuf/One_Piece">
-            <Img fluid={props.project.cli.childImageSharp.fluid} />
+            <Image fluid={props.project.cli.childImageSharp.fluid} />
           </Link>
         </ImgContainer>
 
@@ -38,7 +39,7 @@ const Portfolio = props => (
 
         <ImgContainer>
           <Link target="_blank" to="https://github.com/GoodGuyGuf/hole-in-the-wall">
-            <Img fluid={props.project.sinatra.childImageSharp.fluid} />
+            <Image fluid={props.project.sinatra.childImageSharp.fluid} />
           </Link>
         </ImgContainer>
 
@@ -53,7 +54,7 @@ const Portfolio = props => (
 
         <ImgContainer>
           <Link target="_blank" to="https://github.com/GoodGuyGuf/FilmPitch">
-            <Img fluid={props.project.rails.childImageSharp.fluid} />
+            <Image fluid={props.project.rails.childImageSharp.fluid} />
           </Link>
         </ImgContainer>
 
@@ -68,7 +69,7 @@ const Portfolio = props => (
 
         <ImgContainer>
           <Link target="_blank" to="https://github.com/GoodGuyGuf/myBudget">
-            <Img fluid={props.project.js.childImageSharp.fluid} />
+            <Image fluid={props.project.js.childImageSharp.fluid} />
           </Link>
         </ImgContainer>
 
@@ -83,7 +84,7 @@ const Portfolio = props => (
 
         <ImgContainer>
           <Link target="_blank" to="https://github.com/GoodGuyGuf/vacationMe-frontend">
-            <Img fluid={props.project.react.childImageSharp.fluid} />
+            <Image fluid={props.project.react.childImageSharp.fluid} />
           </Link>
         </ImgContainer>
 

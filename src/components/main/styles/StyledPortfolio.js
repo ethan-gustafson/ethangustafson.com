@@ -1,4 +1,5 @@
-// import React from 'react';
+import React from 'react';
+import Img from "gatsby-image";
 import styled from 'styled-components';
 
 export const Section = styled.section`
@@ -93,4 +94,11 @@ export const Info = styled.p`
   width: 90%;
   margin: 0 auto;
   text-align: left;
+`
+
+export const Image = styled(props => (<Img {...props}/>))`
+  object-fit: "cover";
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
 `
