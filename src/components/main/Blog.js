@@ -16,19 +16,19 @@ const Blog = () => {
 
         <BlogDiv>
           <IFrame 
-            src="https://dev.to/ethanmgustafson/simple-recursion-challenges-ruby-js-python-55j7" 
-            title="Recursion"
+            src="https://dev.to/ethanmgustafson/action-cable-configuration-subscriptions-4b9" 
+            title="Action Cable Configuration & Subscriptions in Rails"
           />
+        </BlogDiv>
+
+        <BlogDiv>
+          <IFrame src="https://dev.to/ethanmgustafson/building-a-website-with-gatsby-js-2h14" title="Building a website with Gatsby.js" />
         </BlogDiv>
 
         <BlogDiv>
           <IFrame src="https://dev.to/ethanmgustafson/c-environment-configuration-vs-code-macos-30ga" 
             title="C Environment"
           />
-        </BlogDiv>
-
-        <BlogDiv>
-          <IFrame src="https://dev.to/ethanmgustafson/intro-to-learning-c-20eo" title="Intro To Learning C" />
         </BlogDiv>
 
         <BlogDiv>
