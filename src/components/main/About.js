@@ -12,8 +12,8 @@ const About = props => (
       </ImgContainer>
 
       <InfoContainer>
-        <P>I am a Software Engineer based in Daytona Beach, Florida. Originally I'm from Southern California and moved to Orlando in 2014.</P>
-        <P>Currently, I am transitioning a technical and creative background in filmmaking to the field of web development. My former work required a highly complex and diverse skill set, including the mastery of high-end software editing platforms, hardware tools, client-facing customer service, and project management.</P>
+        <P>I am a Frontend Engineer based in Daytona Beach, Florida. </P>
+        <P>Currently, I am looking for a position that is remote or based in the Greater Orlando Area. I love anime, gaming, filmmaking, and photography!</P>
         <P>Want to connect? Send me a <Link style={{color: "#ef233c"}} to="/#contact">message!</Link></P>
       </InfoContainer>
 
