@@ -8,7 +8,7 @@ const Intro = () => (
     <IntroBackgroundImage>
       <TextContainer>
         <Name>Ethan Gustafson</Name>
-        <Career>Frontend Engineer</Career>
+        <Career>Software Engineer</Career>
         <P>
           <PortfolioLink to="/#portfolio">View My Work</PortfolioLink>
         </P>
