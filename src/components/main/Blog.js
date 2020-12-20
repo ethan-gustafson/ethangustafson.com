@@ -16,31 +16,44 @@ const Blog = () => {
 
         <BlogDiv>
           <IFrame 
-            src="https://dev.to/ethanmgustafson/action-cable-configuration-subscriptions-4b9" 
-            title="Action Cable Configuration & Subscriptions in Rails"
+            src="https://dev.to/ethanmgustafson/what-is-the-clear-definition-of-an-api-gmn" 
+            title="What is the Clear Definition of an API?"
           />
         </BlogDiv>
 
         <BlogDiv>
-          <IFrame src="https://dev.to/ethanmgustafson/building-a-website-with-gatsby-js-2h14" title="Building a website with Gatsby.js" />
+          <IFrame 
+            src="https://dev.to/ethanmgustafson/big-o-notation-time-space-complexity-44l9" 
+            title="Big O Notation, Time & Space Complexity Overview"  
+          />
         </BlogDiv>
 
         <BlogDiv>
-          <IFrame src="https://dev.to/ethanmgustafson/c-environment-configuration-vs-code-macos-30ga" 
+          <IFrame 
+            src="https://dev.to/ethanmgustafson/c-environment-configuration-vs-code-macos-30ga" 
             title="C Environment"
           />
         </BlogDiv>
 
         <BlogDiv>
-          <IFrame src="https://dev.to/ethanmgustafson/rspec-pt-3-test-doubles-3mml" title="RSpec Test Doubles" />
+          <IFrame 
+            src="https://dev.to/ethanmgustafson/rspec-pt-3-test-doubles-3mml" 
+            title="RSpec Test Doubles" 
+          />
         </BlogDiv>
 
         <BlogDiv>
-          <IFrame src="https://dev.to/ethanmgustafson/css-float-flexbox-14fg" title="CSS Float & Flexbox"/>
+          <IFrame 
+            src="https://dev.to/ethanmgustafson/css-float-flexbox-14fg" 
+            title="CSS Float & Flexbox"
+          />
         </BlogDiv>
 
         <BlogDiv>
-          <IFrame src="https://dev.to/ethanmgustafson/simple-guide-to-css-grid-3cja" title="Simple Guide To CSS Grid"/>
+          <IFrame 
+            src="https://dev.to/ethanmgustafson/simple-guide-to-css-grid-3cja" 
+            title="Simple Guide To CSS Grid"
+          />
         </BlogDiv>
 
       </BlogsContainer>

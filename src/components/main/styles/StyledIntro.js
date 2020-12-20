@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 export const Section = styled.section`
   width: 100%;
-  height: 730px;
+  height: 630px;
 `
 
 export const TextContainer = styled.div`

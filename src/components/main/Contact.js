@@ -16,7 +16,7 @@ import {
 } from "./styles/StyledContact.js";
 import { useStaticQuery, graphql, Link } from "gatsby";
 import Img from "gatsby-image";
-import ResumeFile from "../../../Ethan_Gustafson_Frontend_Engineer_Resume_Nov2020.pdf";
+import ResumeFile from "../../../Ethan_Gustafson_Resume.pdf";
 
 function Contact(){
   const data = useStaticQuery(graphql`
