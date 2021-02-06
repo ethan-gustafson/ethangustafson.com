@@ -12,15 +12,16 @@ export const Section = styled.section`
 `
 
 export const Link = styled(props => (<A {...props}/>))`
-  color: white;
-  background-color: #ef233c;
+  color: black;
+  background-color: #e2c989;
   text-decoration: none;
 
   border-radius: 20px;
   padding: 20px;
 
   &:hover{
-    background-color: #9d0208;
+    color: white;
+    background-color: #e3b65b;
     transition-duration: 0.4s;
   }
 `

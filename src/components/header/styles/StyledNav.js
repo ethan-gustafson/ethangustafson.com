@@ -33,7 +33,7 @@ export const LiLogo = styled.li`
   filter: brightness(1);
 
   &:hover{
-    background-color: #ef233c;
+    background-color: #e3b65b;
     transition-duration: 0.3s;
   }
 

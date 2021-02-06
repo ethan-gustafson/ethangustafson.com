@@ -33,7 +33,7 @@ export const FormContainer = styled.div`
   flex: 1 1 50%;
   margin: 1%;
 
-  background-color: #ef233c;
+  background-color: #e2c989;
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -84,7 +84,7 @@ export const Label = styled.label`
 export const Input = styled.input`
   font-size: 20px;
   &:-webkit-autofill::first-line {font-size: 20px}
-  box-shadow: 0 2px 3px darkred;
+  box-shadow: 0 2px 3px #353037;
 
   width: 100%;
   padding: 10px;
@@ -124,7 +124,7 @@ export const TextArea = styled.textarea`
 
   border: none;
   border-radius: 10px;
-  box-shadow: 0 1px 3px darkred;
+  box-shadow: 0 1px 3px #353037;
 
   &:hover{
     background-color: lightgrey;
@@ -139,7 +139,7 @@ export const SendFormButton = styled.button`
   background-color: white;
   border-radius: 10px;
   border: none;
-  box-shadow: 0 2px 3px darkred;
+  box-shadow: 0 2px 3px #353037;
 
   cursor: pointer;
   -webkit-appearance: none;
@@ -177,7 +177,7 @@ export const IconsContainer = styled.div`
 export const ImgContainer = styled.div`
   margin: 0 auto;
 
-  background-color: #ef233c;
+  background-color: #e2c989;
   border-radius: 10px;
 
   width: 108px;
