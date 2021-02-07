@@ -29,7 +29,7 @@ export const MainContainer = styled.div`
 `
 
 export const FormContainer = styled.div`
-  height: 500px;
+  height: 450px;
   flex: 1 1 50%;
   margin: 1%;
 
@@ -157,18 +157,18 @@ export const SendFormButton = styled.button`
 `
 
 export const IconsContainer = styled.div`
-  height: 500px;
+  height: 450px;
   flex: 1 1 50%;
   margin: 1%;
 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 166px);
+  grid-template-rows: repeat(3, 150px);
   align-items: center;
 
   @media(max-width: 1000px) {
-    margin: 1% auto;
-    width: 90%;
+    margin: 0 auto;
+    width: 100%;
     padding-top: 5%;
     grid-template-rows: repeat(3, 216px);
   }
