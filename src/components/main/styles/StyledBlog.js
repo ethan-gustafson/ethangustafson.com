@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Section = styled.section`
   width: 100%;
-  height: 1200px;
+  height: 670px;
 
   background-color: #08090F;
   @media(max-width: 1000px) {
@@ -18,7 +18,7 @@ export const BlogH2 = styled.h2`
 `
 
 export const BlogsContainer = styled.div`
-  width: 90%;
+  width: 95%;
   height: 100%;
   margin: 0 auto;
 
@@ -36,7 +36,7 @@ export const BlogsContainer = styled.div`
 
 export const BlogDiv = styled.div`
   width: 30%;
-  height: 500px;
+  height: 450px;
   margin: 1%;
 
   background-color: white;

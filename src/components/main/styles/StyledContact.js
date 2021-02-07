@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Section = styled.section`
   width: 100%;
-  height: 700px;
+  height: 650px;
 
   background-color: #08090F;
   @media(max-width: 1000px) {
