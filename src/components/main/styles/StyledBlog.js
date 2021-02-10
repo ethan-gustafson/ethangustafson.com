@@ -6,7 +6,7 @@ export const Section = styled.section`
 
   background-color: #08090F;
   @media(max-width: 1000px) {
-    height: 3550px;
+    height: 1570px;
   }
 `
 
