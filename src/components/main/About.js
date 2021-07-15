@@ -12,7 +12,7 @@ const About = props => (
       </ImgContainer>
 
       <InfoContainer>
-        <P>Free spirit with a curious, disquisitive, and down-to-earth disposition. I discovered a passion for programming through storytelling, where I was able to combine a creative, technical, and psychological mindset creating experiences for audiences. When I’m not programming, I’m learning, connecting with many of various backgrounds, and problem-solving.</P>
+        <P>I discovered a passion for programming through storytelling, where I was able to combine a creative, technical, and psychological mindset creating experiences for audiences. When I’m not programming, I’m learning, connecting with many of various backgrounds, and problem-solving.</P>
         <P>Check out the film/photo page to view my previous work in wedding videography, documentaries, as well as miscellaneous film production and photography!</P>
         <P>Want to connect? Send me a <Link style={{color: "#e2c989"}} to="/#contact">message!</Link></P>
       </InfoContainer>
